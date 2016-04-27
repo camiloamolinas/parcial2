@@ -15,12 +15,14 @@ public class Firma_de_Inversion {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) throws FileNotFoundException, IOException {
-                System.out.println("Version 3.1 ");
+    public static void main(String[] args) throws FileNotFoundException, IOException, Exception {
+                System.out.println("Version 7.1 ");
                 System.out.println("");
-        
+    
+                //-------------Desincriptar----------------------------------------
     int dato;
     Desincriptador des = new Desincriptador();
+    CreadorObjetos creador = new CreadorObjetos();
     FileInputStream file = new FileInputStream("datos.txt");
     FileOutputStream datos_des = new FileOutputStream("datos_des.txt");
 
@@ -31,6 +33,17 @@ public class Firma_de_Inversion {
     datos_des.write(dato);
 
     }
+    
+            //-----------------Fin Desincriptacion-------------------------
+            
+            //-----------------Crear Objetos----------------------------
+    creador.crear();
+    
+    datos_des.close();
+    
+        
+    
+    
 
     
         

@@ -92,7 +92,7 @@ public class Desincriptador  {
             //System.out.println("ENTRE AL FOR");
             if(i == codigo){
                 evaluador = true;
-                System.out.println("ciclo  " + codigo + " = " + i + "  " + evaluador);
+                //System.out.println("ciclo  " + codigo + " = " + i + "  " + evaluador);
             }
             i++;
         }
@@ -181,7 +181,7 @@ public class Desincriptador  {
         case 25: resultado = 90;
                    break;
         
-        default: System.out.println("Letra Invalida");
+        default: System.out.println("Letra Invalida " + p );
                     break;
        }
         return resultado;

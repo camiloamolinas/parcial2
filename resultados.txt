@@ -1,0 +1,12 @@
+Cash 
+Total Market =  16340.0
+Total Profit =  0.0
+
+Stock 
+Total Market =  2.00458229E8
+Total Profit =  1.98083727E8
+
+DividentStock
+Total Market =  1.30163535E8
+Total Profit =  1.28319703E8
+
